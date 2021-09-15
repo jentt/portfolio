@@ -1,0 +1,12 @@
+.nav {
+  font-size: 2.2rem;
+  font-family: $font-nav;
+  .nav-link {
+    color: #005b00;
+
+    &:hover {
+      color: #66a366;
+    }
+    
+  }
+}
