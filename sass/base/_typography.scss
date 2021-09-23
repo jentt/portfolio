@@ -1,6 +1,6 @@
 %heading {
   font-family: $font-primary;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .heading-1 {
@@ -8,7 +8,8 @@
   font-size: 4.5rem;
   line-height: 1;
   letter-spacing: .6rem;
-  text-transform: uppercase
+  text-transform: uppercase;
+  color: $color-title;
 }
 
 .heading-2 {
@@ -21,7 +22,7 @@
 
 .heading-4 {
   @extend %heading;
-  font-size: 1.9rem;
+  font-size: 2.1rem;
   line-height: 1.6;
 
 }
