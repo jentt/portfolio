@@ -16,6 +16,7 @@ html {
   box-sizing: border-box;
   // This defines what 1rem is
   font-size: 62.5%;
+  overflow: auto;
 
   @media only screen and (max-width: $bp-largest) {
     font-size: 50%;
@@ -25,9 +26,8 @@ html {
 body {
   font-weight: 300;
   line-height: 1.6;
-  //background: url('/img/leaves.jpg') no-repeat; 
-  //background-size: contain;
-
+  overflow: auto;
+  
   background: #EBE3E3;
   background: -webkit-linear-gradient(bottom right, #EBE3E3, #c5d6c5);
   background: -moz-linear-gradient(bottom right, #EBE3E3, #c5d6c5);
