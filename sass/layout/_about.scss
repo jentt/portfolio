@@ -14,7 +14,7 @@
     grid-template-rows: repeat(auto, min-content);
     grid-gap: 1rem;
     background-color: #f2f6f2;
-    border-radius: 60%;
+    border-radius: 55%;
 
     @media screen and (max-width: $bp-small) {
       border-radius: 49%;
